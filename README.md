@@ -141,4 +141,4 @@ This is implementation and review stage. Prototype and Review dashboard multiple
   - **_Tables_** have shown **_poor performance_** with negative profit margins over the past four years, resulting in losses with each sale <br>--> **_Discontinue_** this product or **_adjust its pricing_**.
   - The return rate for binders has reached 25% <br>--> **_Investigate the causes_** behind this high return rate and **_implement corrective measures_**.
 
-- ***APAC-South East Asia Sales Agent***: It is proposed to issue a **_warning to the sales agent_ **in this region due to negative profit and a profit margin of only 4%, despite the market's strong performance in key products like copiers, phones, and bookcases. The sales agent should reassess and **_adjust their sales plan_** accordingly.
+- ***APAC-South East Asia Sales Agent***: It is proposed to issue a **_warning to the sales agent_** in this region due to negative profit and a profit margin of only 4%, despite the market's strong performance in key products like copiers, phones, and bookcases. The sales agent should reassess and **_adjust their sales plan_** accordingly.
