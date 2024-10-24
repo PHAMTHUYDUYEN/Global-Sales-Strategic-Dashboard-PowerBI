@@ -1,11 +1,11 @@
 # [PowerBI] Global Sales Strategic Dashboard 
 ## **I.INTRODUCTION**
+In this project, a **_strategic dashboard_** was developed using _**Design Thinking**_ approach and _**Power BI**_ tools (**_DAX_**, **_Power Query_**, and **_Visualization_** tools) to analyze **_global sales performance_** over 4 years. The dashboard aimed to assist senior managers in **_understanding business performance by region, product, and sales personnel,_** which led to **_decisions_** in **_Market expansion_**, **_Market optimization_**, and **_Product selection_**.
+
 ### **1. BUSINESS QUESTIONS**
-Superstore is a global retail enterprise with operations spanning multiple regions. Senior management of Superstore requires a detailed understanding of the company’s business performance to inform ***strategic decisions*** regarding:
+Superstore is a global retail enterprise with operations spanning multiple regions. Senior management of Superstore requires a ***detailed understanding*** of the company’s ***business performance*** to inform ***strategic decisions*** regarding:
   - Market Expansion
   - Selection of Key Products for Growth
-
-This dashboard, developed using the ***Design Thinking approach*** and ***Power BI tools***, aims to provide valuable insights into overall sales performance and offer actionable recommendations. Its objective is to support senior management in making informed, data-driven decisions to address their problems.
 
 ### **2. DATASET**
 The dataset (as attachment) contains global sales information of Superstore, including 3 tables:
