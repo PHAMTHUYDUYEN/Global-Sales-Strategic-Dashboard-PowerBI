@@ -15,70 +15,28 @@ The dataset (as attachment) contains global sales information of Superstore, inc
 
 ## **II.DESIGN THINKING APPROACH**
 ### Stage 1: Empathize
-|5W1H|---|
-|---|---|
-|Who will be viewing this Dashboard?|	Senior managers (CEO, Sales Manager, Marketing Manager, HR Manager, etc.)|
-|If we had to choose only one key Stakeholder, who would it be?| CEO|
-|What problem does this Dashboard solve?	| Market expansion strategy<br>Plan for improving the current market<br>Strategic product selection decisions<br>Sales personnel allocation plan|
-|Describe the problem in one sentence |	Assist the CEO in understanding the business performance (sales, returns) by region, product, and sales personnel, to support decision-making regarding market expansion, strategic product selection, and personnel allocation.|
-|When and where will Stakeholders view this Dashboard?| 1. When working independently, to grasp the business performance to carefully consider strategic decisions.<br>2. During strategy discussions with the team in meetings.|
-|Why do stakeholders need this Dashboard?| 1. To quickly understand the business performance of products, markets, and sales personnel.<br>2. To have a basis for selecting strategic products and target markets for expansion.<br>3. To consider the sales personnel allocation plan.<br>4. To determine whether business performance needs improvement in any specific market.|
-|How have stakeholders been achieving their goals so far?	| 1. Understand sales, returns, and growth rates across markets <br>--> Identify potential markets <br>--> Determine which markets need improvement <br>--> Plan to investigate causes and propose solutions)<br> 2. Understand sales, returns, and growth rates by product category --> Select strategic products<br>3. Track sales, performance growth, and regions managed by each sales representative --> Allocate personnel accordingly|
 
-|Empathy Map|---|
-|---|---|
-|**Thinking and feeling**<br>_What does the stakeholder think and feel?_|	The company is performing well, and your focus is on driving further growth with the immediate goal of reaching this year's revenue target. It's great to have that clear objective in mind while exploring strategies to enhance business performance!|
-|**Seeing**<br>_What does the stakeholder see?_|	The company is operating successfully on a global scale.<br>This year's revenue target has been set higher than the previous year's.|
-|**Saying and doing**<br>_What does the stakeholder say and do?_	|"I believe that expanding into new markets can help the company achieve its revenue goals".<br>"To increase revenue, I should also assess the current markets to identify any areas that require improvement".|
-|**Pains**<br>_What are the biggest problems and challenges?_|	1. What are the potential markets for expansion?<br>2. Is there a need to improve the current markets?<br>3. Which products should be prioritized for the new or existing markets?<br>4. Who will be responsible for the new market? Is there a need to adjust personnel allocation?|
-|**Gains**<br>_What are the opportunities and benefits?_|	With the analyzed data, the CEO will gain an accurate understanding of the business performance, allowing for the validation of assumptions and informed decision-making.|
+<img width="950" alt="Product" src="https://github.com/user-attachments/assets/83e091af-e163-4cc6-b67b-fde010b561cd">
+
+<img width="600" alt="Product" src="https://github.com/user-attachments/assets/acf5fe9f-dad5-4a27-871e-c07bbe3487dc">
 
 ### Stage 2: Define Point of View
-|Northstar Metric|---|
-|---|---|
-|What VALUE you want to measure?|Total value generated from customers through sales.|
-|WHEN the value DELIVERY SUCCESS?|When an order is completed.|
-|Northstar Metric Name|Revenue|
-|WHY do you choose this metric?|Reflecting the business's sales performance, higher the revenue better the performance.|
 
-Dimension Data Group
-|**Group 1** - Location|**Group 2** - Product|**Group 3** - Salesman|**Group 4** - Time|
-|:---:|:---:|:---:|:---:|
-|_Market<br>Region<br>Country_|	_Product<br>Product Category_	|_Sales person_|_YoY_|
+<img width="450" alt="Product" src="https://github.com/user-attachments/assets/1cc3cc58-bdf1-4393-aef2-c2021e0ee12b"> \
 
-Define Point of View
-|View	|Description	|	Why	|
-|---|:---:|---|
-|**View1**| Market Analysis|	Identify potential markets for expansion and weak markets that need improvement.	|			
-|**View2**| Product Analysis|	Select strategic products for each market or for all markets.	|		
-|**View3**| Sales Person Analysis|	Select personnel responsible for the new market and reallocate personnel for existing markets (if necessary).|
+<img width="450" alt="Product" src="https://github.com/user-attachments/assets/9242a9ce-595a-4138-b136-2c26690849e5"> \
 
-Growth Formula
-|Northstar Metric:|Revenue|
-|---|---|
-|View 1 breakdown	| Revenue by Market, by Time|
-|View 2 breakdown	| Revenue by Product, by Time, by Product & Market	|
-|View 3 breakdown	| Revenue by Sales Person |
-
+<img width="400" alt="Product" src="https://github.com/user-attachments/assets/926eb43b-b171-4a04-acd3-a9763b009d7b">
 
 ### Stage 3: Ideate
 Brainstorming
-|Idea Name|Layer 0 dimension| Layer 1 dimension|Layer 2 dimension|
-|---|---|---|---|
-|View 1: Market| 1. Total Revenue<br>2. Total Profit<br>3. Total Number of Customer|1. Revenue by market<br>2. Profit by market<br>3. Profit Margin by market<br>4. Customer number by market<br>5. Return Rate by market<br>6. YoY Growth Rate of Revenue by market|1. Revenue, profit by market, by category|
-|View 2: Product|1. Total Revenue<br>2. Total Profit|1. Revenue by product category<br>2. Profit  by product category<br>3. Product Classification:<br>- High vol, High profit<br>- High vol, Low profit<br>- Low vol, High profit<br>- Low vol, Low profit<br>4. Profit margin by product category<br>5. Return rate by product category<br>6. YoY Growth Rate of Revenue by product category |1. Revenue, profit by category, by year|
-|View 3: Sales Person	|1. Total Revenue<br>2. Total Profit|1. Revenue by person<br>2. Profit by person<br>3. Profit margin by person<br>4. YoY Growth Rate of Revenue by person<br>5. Market by person|1. Revenue, profit by person, by category|
+
+<img width="580" alt="Product" src="https://github.com/user-attachments/assets/50f3b975-97df-4b0d-8be5-115262027d46">
+
 
 Structure idea
-|---|	Metric 1 | Metric 2	| Metric 3	| Metric 4 |
-|---|---|---|---|---|
-|Scorecard	|Revenue	|Number of customers	|Profit	|Profit Margin|
 
-|Idea Name	| Highly important info|	Important info | Detailed info |
-|---|---|---|---|
-|View 1|1. Revenue by market<br>2. Profit by market<br>3. Profit Margin by market<br>4. Customer number by market<br>5. Return Rate by market<br>6. YoY Growth Rate of Revenue by market|1. Total Revenue<br>2. Total Profit<br>3. Total Number of Customer|1. Revenue, profit by market, by category<br>2. Market details"	|
-|View 2|1. Revenue by product category<br>2. Profit  by product category<br>3. Product Classification:<br>- High vol, High profit<br>- High vol, Low profit<br>- Low vol, High profit<br>- Low vol, Low profit<br>4. Profit margin by product category<br>5. Return rate by product category<br>6. YoY Growth Rate of Revenue by product category|1. Total Revenue<br>2. Total Profit |1. Revenue, profit by category, by year|
-|View 3	|1. Revenue by person<br>2. Profit by person<br>3. Profit margin by person<br>4. YoY Growth Rate of Revenue by person|1. Total Revenue<br>2. Total Profit|1. Market by person<br>2. Sales person details|	
+<img width="950" alt="Product" src="https://github.com/user-attachments/assets/32ada3ac-18d2-443d-be63-59f3553ef5c2">
 
 ### Stage 4: Prototype & Review
 This is implementation and review stage. Prototype and Review dashboard multiple times to achieve the final dashboard.
